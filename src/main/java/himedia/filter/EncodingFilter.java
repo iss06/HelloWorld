@@ -3,7 +3,6 @@ package himedia.filter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.logging.Logger;
-
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.FilterConfig;
@@ -44,7 +43,6 @@ public class EncodingFilter implements Filter {
 		chain.doFilter(req, resp); // 요청 처리 종료 후 다음 필터로 전달
 
 		out.println("<h6>Encoding Filter 작동 후</h6>");
-
 	}
 
 	@Override

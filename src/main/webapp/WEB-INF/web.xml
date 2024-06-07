@@ -31,7 +31,7 @@
 	<!-- Filter 등록 -->
 	<filter>
 		<filter-name>EncodingFilter</filter-name>
-		<filter-class>himeida.filter.EncodingFilter</filter-class>
+		<filter-class>himedia.filter.EncodingFilter</filter-class>
 		<!-- Filter 초기화 파라미터 -->
 		<init-param>
 			<param-name>encoding</param-name>
@@ -48,7 +48,6 @@
 		<filter-name>EncodingFilter</filter-name>
 		<url-pattern>/*</url-pattern><!-- 모든 요청 -->
 	</filter-mapping>
-
 	<filter-mapping>
 		<filter-name>LoggingFilter</filter-name>
 		<url-pattern>/*</url-pattern>
